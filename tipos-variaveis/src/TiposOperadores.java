@@ -50,16 +50,33 @@ public class TiposOperadores {
                 System.out.println(concatenacao);
             }
          */
-
+            /* 
          public static void main(String[] args) {
             int numero = 5;
             numero = - numero;
             
             System.out.println(numero);
 
-            numero  =  numero * -1; /* nesse caso para tornar o número positivo é preciso multiplicar por -1 */ 
+            numero  =  numero * -1; /* nesse caso para tornar o número positivo é preciso multiplicar por -1 
 
             System.out.println(numero);
          }
-         
-}
+         */
+
+         public static void main(String[] args) {
+            //x repetição
+            int numero = 5;
+           // numero = numero + 1;
+           //numero ++;
+           System.out.println(numero ++);
+           System.out.println(numero);
+           //negação
+           boolean variavel = true;
+             
+            System.out.println(!variavel);
+            System.out.println(variavel);
+         }
+
+          
+           
+         }
