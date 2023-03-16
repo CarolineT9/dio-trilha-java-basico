@@ -43,6 +43,11 @@ public class TiposOperadores {
         >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
         < Quando desejamos verificar se uma variável é MENOR QUE outra.
         <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+      * Operadores Lógicos:representam o recurso que nos permite criar expressões lógicas maiores a
+      partir da junção de duas ou mais expressões.
+        && = E
+        || = OU
      
       
      * public static void main(String[] args) {
@@ -118,7 +123,7 @@ public class TiposOperadores {
         // System.out.println(resultado);
     }
     
-*/
+
     public static void main(String[] args) {
         String  nomeUm = "caroline";
         String nomeDois = "caroline";
@@ -147,5 +152,21 @@ public class TiposOperadores {
 
         System.out.println("numeroum é maior a numeroDois? " + simNao);
     }
-  
+  */
+
+    public static void main(String[] args) {
+      boolean condicao1 = true;
+      boolean condicao2 = false;
+
+      if (condicao1 && ( 7 > 4)){
+        System.out.println("As duas condições são verdadeiras.");
+      }
+
+      if (condicao1 || condicao2){
+        System.out.println("Uma das condições é verdadeira.");
+      }
+
+      System.out.println("Fim!");
+
+    }
 }
