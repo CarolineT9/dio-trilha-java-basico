@@ -117,8 +117,8 @@ public class TiposOperadores {
 
         // System.out.println(resultado);
     }
-    */
-
+    
+*/
     public static void main(String[] args) {
         String  nomeUm = "caroline";
         String nomeDois = "caroline";
@@ -147,4 +147,5 @@ public class TiposOperadores {
 
         System.out.println("numeroum é maior a numeroDois? " + simNao);
     }
+  
 }
