@@ -31,10 +31,18 @@ public class TiposOperadores {
      * (!) Operador unário lógico de negação – nega o valor de uma expressão
        booleana;
      
-     * O Operador de Condição Ternária é uma forma resumida para definir uma condição e escolher por um dentre dois valores.
+     * O Operador Ternári: é uma forma resumida para definir uma condição e escolher por um dentre dois valores.
      * O operador ternário é representado pelos símbolos ?: utilizados na seguinte estrutura de sintaxe:
         
      <Expressão Condicional>`` ?``<Caso condição seja true>``: ``<Caso condição seja false>
+
+     Operadores relacionais: avaliam a relação entre duas variáveis ou expressões:
+        == Quando desejamos verificar se uma variável é IGUAL A outra.
+        != Quando desejamos verificar se uma variável é DIFERENTE da outra.
+        > Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+        >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+        < Quando desejamos verificar se uma variável é MENOR QUE outra.
+        <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
      
       
      * public static void main(String[] args) {
@@ -92,7 +100,7 @@ public class TiposOperadores {
      * System.out.println(variavel);
      * }
      * 
-     */
+     *
     public static void main(String[] args) {
         // operador ternário
 
@@ -108,5 +116,35 @@ public class TiposOperadores {
         //int resultado = a==b ? 1 : 0;
 
         // System.out.println(resultado);
+    }
+    */
+
+    public static void main(String[] args) {
+        String  nomeUm = "caroline";
+        String nomeDois = "caroline";
+
+        System.out.println(nomeUm.equals(nomeDois)); //equals compara conteúdos entre objetos
+         
+        int  numero1 = 1;
+        int  numero2 = 2;
+
+        boolean simNao = numero1 == numero2; // para números podemos usar os operadores relacionais;
+
+        if(numero1 < numero2);
+        System.out.println("a nossa condição é verdadeira");
+
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+
+        System.out.println("numeroum é igual a numeroDois? " + simNao);
+        
+        simNao = numero1 > numero2;
+
+        System.out.println("numeroum é maior a numeroDois? " + simNao);
+
+        simNao = numero1 < numero2;
+
+        System.out.println("numeroum é maior a numeroDois? " + simNao);
     }
 }
